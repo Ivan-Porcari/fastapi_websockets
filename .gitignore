@@ -1,0 +1,53 @@
+# === Entornos virtuales ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Archivo personal de notas ===
+commands.md
+
+# === Python cache / bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Distribución / empaquetado ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Variables de entorno / secretos ===
+.env
+.env.local
+*.env
+
+# === Testing / coverage ===
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# === Type checkers / linters ===
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# === Bases de datos locales (si usás SQLite en desarrollo) ===
+*.db
+*.sqlite3
+
+# === Archivos subidos localmente (uploads de prueba) ===
+img/
+uploads/
+
+# === Editor / SO ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
